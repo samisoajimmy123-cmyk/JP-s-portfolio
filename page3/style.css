@@ -1,0 +1,173 @@
+body{
+    min-width: 1024px;
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(97, 100, 0);
+}
+.conteneur{
+    background-color: #054;
+    margin: 30px;
+    padding: 50px;
+    height: 1000px;
+    border-left: 30px solid yellow;
+    color: aliceblue;
+}
+
+.num1{
+    max-width: 400px;
+    max-height: 600px;
+    display: flex;
+    gap: 480px;
+}
+
+.num1 img{
+    height: 500px;
+    float: right;
+    margin-top: 550px;
+}
+
+.titre{
+    font-size: 40px;
+    line-height: 1;
+    padding-top: 50px;
+    padding-right: 20px;
+    border-top: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-top-right-radius: 5px
+}
+
+.motif{
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    width: 250px;
+    height: 250px;
+    background: repeating-linear-gradient(
+        135deg,
+        white 0px,
+        white 6px,
+        transparent 6px,
+        transparent 30px
+    );
+    background-color: transparent;
+}
+
+.projet1{
+    position: absolute;
+    top: 400px;
+    right: 38px;
+    height: 450px;
+    transition: 0.5s;
+}
+
+.projet1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px azure;
+}
+
+.projet2{
+    position: absolute;
+    height: 300px;
+    top: 450px;
+    right: 640px;
+    transition: 0.5s;
+}
+
+.projet2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px azure;
+}
+
+.projet3{
+    position: absolute;
+    height: 200px;
+    top: 930px;
+    left: 38px;
+    transition: 0.5s;
+}
+
+.projet3:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px azure;
+}
+
+.message1{
+    position: absolute;
+    font-size: 30px;
+    top: 50px;
+    left: 500px;
+}
+
+.message1 strong{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.message2{
+    position: absolute;
+    font-size: 30px;
+    top: 150px;
+    left: 550px;
+}
+
+.message2 strong{
+    color: yellow;
+    padding: 30px;
+    font-size: 60px;
+}
+
+.message3{
+    position: absolute;
+    font-size: 30px;
+    top: 840px;
+    right: 100px;
+    color: yellow;
+    padding: 30px;
+    font-size: 60px;
+    line-height: 1.1;
+}
+
+.precedent{
+    background: yellowgreen;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 20px;
+    margin-right: 0px;
+    box-shadow: -5px 10px 10px #043;
+    transition: 0.4s;
+    position: absolute;
+    top: 1040px;
+    right: 350px;
+}
+
+.precedent:hover{
+    transform: translateY(-3px);
+    background-color: yellow;
+    box-shadow: 0 0 8px yellow;
+}
+
+.suivant{
+    background: yellowgreen;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 20px;
+    margin-right: 0px;
+    box-shadow: -5px 10px 10px #043;
+    transition: 0.4s;
+    position: absolute;
+    top: 1040px;
+    right: 150px;
+}
+
+.suivant:hover{
+    transform: translateY(-3px);
+    background-color: yellow;
+    box-shadow: 0 0 8px yellow;
+}

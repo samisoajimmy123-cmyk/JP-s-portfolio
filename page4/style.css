@@ -1,0 +1,127 @@
+body{
+    min-width: 1024px;
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(97, 100, 0);
+}
+
+.conteneur{
+    background-color: #054;
+    margin: 100px 200px;
+    height: 1100px;
+    max-width: 1200px;
+    display: flex;
+    border-left: 30px solid yellow;
+    color: aliceblue;
+}
+
+.conteneur p{
+    color: yellow;
+    font-size: 100px;
+    line-height: 1.1;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: 0;
+}
+
+.img1 img{
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+
+.img2 img{
+    height: 600px;
+    position: absolute;
+    top: 600px;
+    left: 238px;
+}
+
+.message1{
+    color: yellow;
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+.num1{
+    position: absolute;
+    top: 380px;
+    left: 240px;
+}
+
+.num2{
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    color: azure;
+}
+
+.num3{
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    padding: 330px 20px;
+    border-right: 3px solid yellow;
+    border-top: 3px solid yellow;
+    border-radius: 50%;
+}
+
+.num4{
+    rotate: 270deg;
+    position: absolute;
+    top: 900px;
+    right: 220px;
+}
+
+.num5{
+    rotate: 270deg;
+    position: absolute;
+    top: 810px;
+    right: 60px;
+    color: aliceblue;
+}
+
+.num6{
+    position: absolute;
+    top: 950px;
+    right: 600px;
+    padding: 35px;
+}
+
+.motif{
+    position: absolute;
+    top: 700px;
+    right: 525px;
+    width: 200px;
+    height: 300px;
+    background: repeating-linear-gradient(
+        135deg,
+        white 0px,
+        white 6px,
+        transparent 6px,
+        transparent 30px
+    );
+    background-color: transparent;
+}
+
+.precedent{
+    background: yellowgreen;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 20px;
+    margin-right: 0px;
+    box-shadow: -5px 10px 10px #043;
+    transition: 0.4s;
+    position: absolute;
+    top: 1130px;
+    right: 300px;
+}
+
+.precedent:hover{
+    transform: translateY(-3px);
+    background-color: yellow;
+    box-shadow: 0 0 8px yellow;
+}

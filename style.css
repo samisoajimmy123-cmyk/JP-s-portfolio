@@ -1,0 +1,98 @@
+body{
+    min-width: 1024px;
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(97, 100, 0);
+}
+
+.conteneur{
+    margin: 50px 200px;
+    padding: 0;
+    background-color: #054;
+    color: aliceblue;
+    display: block;
+    width: max-content;
+    height: 1063px;
+    border-left: 30px solid yellow;
+}
+
+.cadre-1{
+    height: 170px;
+    max-width: max-content;
+    padding: 20px 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+}
+
+.cadre-1 h2{
+    font-size: 30px;
+}
+
+.cadre-1 .num2{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-radius: 50%;
+    padding: 60px 30px;
+}
+
+.cadre-1 .num1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.pdp img{
+    float: left;
+    margin-top: 52px;
+    margin: 0;
+}
+
+.pdp p{
+    position: absolute;
+    top: 210px;
+    right: 420px;
+    font-size: 120px;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.motif{
+    position: absolute;
+    top: 600px;
+    right: 185px;
+    width: 250px;
+    height: 250px;
+    background: repeating-linear-gradient(
+        135deg,
+        white 0px,
+        white 6px,
+        transparent 6px,
+        transparent 30px
+    );
+    background-color: transparent;
+}
+
+button{
+    background: yellowgreen;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 20px;
+    margin-right: 0px;
+    box-shadow: -5px 10px 10px #043;
+    transition: 0.4s;
+    position: absolute;
+    top: 1020px;
+    right: 230px;
+}
+
+button:hover{
+    transform: translateY(-3px);
+    background-color: yellow;
+    box-shadow: 0 0 8px yellow;
+}

@@ -1,0 +1,214 @@
+body{
+    min-width: 1024px;
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(97, 100, 0);
+}
+
+.conteneur{
+    background-color: #054;
+    margin: 30px;
+    padding: 50px;
+    height: 982px;
+    border-left: 30px solid yellow;
+    color: aliceblue;
+}
+
+.contenant1{
+    display: flex;
+    max-height: 500px;
+    width: auto;
+    gap: 50px;
+}
+
+.contenant1 h1{
+    color: yellow;
+    font-size: 45px;
+}
+
+.contenant1 h2{
+    font-size: 30px;
+}
+
+.contenant1 p{
+    font-size: 20px;
+    color: darkgray;
+}
+
+.intro{
+    width: 450px;
+}
+
+.espa{
+    max-width: 500px;
+}
+
+.espa img{
+    width: 500px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.espa img:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px white;
+}
+
+.espa h1{
+    color: yellow;
+    font-size: 50px;
+}
+
+.espa p{
+    color: darkgray;
+    font-size: 20px;
+}
+
+.espa2 img{
+    width: 300px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.espa2 img:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px white;
+}
+
+.pdp2 img{
+    position: absolute;
+    left: 300px;
+}
+
+.contenant2{
+    display: flex;
+    gap: 50px;
+}
+
+.ljsa .bat{
+    position: absolute;
+    top: 605px;
+    left: 580px;
+    width: 600px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.ljsa .bat:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px white;
+}
+
+.ljsa .logo{
+    position: absolute;
+    top: 900px;
+    left: 580px;
+    width: 40px;
+}
+
+.ljsa h1{
+    color: yellow;
+    font-size: 50px;
+    position: absolute;
+    top: 855px;
+    left: 640px;
+}
+
+.ljsa p{
+    color: darkgray;
+    width: 500px;
+    position: absolute;
+    top: 950px;
+    left: 580px;
+}
+
+.message1{
+    font-size: 25px;
+    width: 550px;
+    position: absolute;
+    top: 700px;
+    right: 1050px;
+    color: azure;
+    rotate: 270deg;
+}
+
+.message1 strong{
+    color: yellow;
+    font-size: 50px;
+}
+
+.motif1{
+    position: absolute;
+    top: 650px;
+    right: 40px;
+    width: 250px;
+    height: 180px;
+    background: repeating-linear-gradient(
+        135deg,
+        white 0px,
+        white 6px,
+        transparent 6px,
+        transparent 30px
+    );
+    background-color: transparent;
+}
+
+.motif2{
+    position: absolute;
+    top: 120px;
+    right: 320px;
+    width: 200px;
+    height: 130px;
+    background: repeating-linear-gradient(
+        135deg,
+        white 0px,
+        white 6px,
+        transparent 6px,
+        transparent 30px
+    );
+    background-color: transparent;
+}
+
+.precedent{
+    background: yellowgreen;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 20px;
+    margin-right: 0px;
+    box-shadow: -5px 10px 10px #043;
+    transition: 0.4s;
+    position: absolute;
+    top: 1040px;
+    right: 220px;
+}
+
+.precedent:hover{
+    transform: translateY(-3px);
+    background-color: yellow;
+    box-shadow: 0 0 8px yellow;
+}
+
+.suivant{
+    background: yellowgreen;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 20px;
+    margin-right: 0px;
+    box-shadow: -5px 10px 10px #043;
+    transition: 0.4s;
+    position: absolute;
+    top: 1040px;
+    right: 50px;
+}
+
+.suivant:hover{
+    transform: translateY(-3px);
+    background-color: yellow;
+    box-shadow: 0 0 8px yellow;
+}
+
