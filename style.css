@@ -4,6 +4,14 @@ body{
     background-color: rgb(97, 100, 0);
 }
 
+.tout{
+    position: relative;
+    width: 1500px;
+    height: 1113px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 .conteneur{
     margin: 50px 200px;
     padding: 0;
